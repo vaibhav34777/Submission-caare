@@ -1,6 +1,6 @@
 # Skin Lesion Screening: Fine-Tuning on PAD-UFES-20
 
-Binary task: malignant (BCC, SCC, MEL) vs non-malignant (ACK, NEV, SEK). Run `notebook.ipynb` top to bottom on a Colab T4. Data is downloaded from Mendeley Data (CC BY 4.0), no credentials needed.
+Binary task: malignant (BCC, SCC, MEL) vs non-malignant (ACK, NEV, SEK). Run `submission.ipynb` top to bottom on a Colab T4. Data is downloaded from Mendeley Data (CC BY 4.0), no credentials needed.
 
 ## Choices
 - **Split:** 80/10/10 (1,820 / 221 / 257 images), stratified on the label and grouped by patient so no patient appears in two splits. Seed 42.
